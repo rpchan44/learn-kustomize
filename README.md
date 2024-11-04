@@ -1,3 +1,5 @@
+## kudos to the original author DevOPS Journey in YT
+
 ## Check your version of kubectl
 ```
 kubectl version # recommended
@@ -17,7 +19,7 @@ kubectl apply -k bases/
 kubectl apply -k overlays/dev/
 kubectl apply -k overlays/prod/
 ```
-Note: if you get field is immutable error, check your configuration and try deleting the resources then applying again.
+Note: This is just tip of the iceberg will update this repo once i find something more interesting on this
 
 
 ## Creating Namespaces if you dont have them already
