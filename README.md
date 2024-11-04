@@ -2,7 +2,7 @@
 
 ## Check your version of kubectl
 ```
-kubectl version # recommended
+$ kubectl version
 Client Version: v1.31.0 Kustomize Version: v5.4.2
 ```
 
