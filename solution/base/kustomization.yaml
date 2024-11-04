@@ -1,20 +1,23 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
 
-resources: 
+resources:
 - deployment.yaml
 - service.yaml
 
-commonLabels:
-  app: basic-app
+labels:
+- includeSelectors: true
+  pairs:
+    app: basic-app
 
 commonAnnotations:
-  app: basic-app-annontations
+  app: basic-app-annotations
 
-namePrefix:
-  devel-
+namePrefix: devel-
 
-nameSuffix:
-  -v1
+nameSuffix: -v1
 
 configMapGenerator:
-- name: mykustom-map
-  env: config.properties
+- envs:
+  - config.properties
+  name: mykustom-map
