@@ -4,13 +4,13 @@ resources:
 - service.yaml
 
 commonLabels:
-  app: mykustomapp
+  app: basic-app
 
 commonAnnotations:
-  app: mykustom-annontations
+  app: basic-app-annontations
 
 namePrefix:
-  kustom-
+  devel-
 
 nameSuffix:
   -v1
