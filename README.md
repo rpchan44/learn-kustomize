@@ -1,10 +1,9 @@
 ## Check your version of kubectl
 ```
 kubectl version
-```
 #Client Version: v1.31.0
-#Kustomize Version: v5.4.2
-#Server Version: v1.30.2+k3s2
+Kustomize Version: v5.4.2
+```
 
 ## Viewing Kustomize Configs - (Using kubectl kustomize integration)
 ```
