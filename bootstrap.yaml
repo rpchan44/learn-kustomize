@@ -7,9 +7,9 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/rpchan44/k8s-demo-app.git
+    repoURL: https://github.com/rpchan44/learn-kustomize.git
     targetRevision: HEAD
-    path: dev
+    path: bases
   destination:
     server: https://kubernetes.default.svc
     namespace: trunk
