@@ -15,7 +15,6 @@ kubectl kustomize overlays/prod/
 
 ## Applying Kustomize Configs - (Using kubectl kustomize integration)
 ```
-kubectl apply -k bases/
 kubectl apply -k overlays/dev/
 kubectl apply -k overlays/prod/
 ```
