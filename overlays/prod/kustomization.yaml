@@ -4,11 +4,10 @@ kind: Kustomization
 namespace: production
 
 configMapGenerator:
-- name: configmap
-  behavior: replace
-  envs:
+- envs:
   - config.properties
-
+  name: configmap
+  
 resources:
 - ../../bases
 
