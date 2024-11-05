@@ -14,7 +14,7 @@ spec:
         - containerPort: 80
         envFrom:
         - configMapRef:
-            name: machx-mycustom-map
+            name: configmap
         resources:
           requests:
             memory: "16Mi" 
