@@ -8,7 +8,7 @@ spec:
   template:
     spec: # Pod spec
       containers:
-      - name: mycontainer
+      - name: trunk-v1.0
         image: "devopsjourney1/mywebapp:latest"
         ports:
         - containerPort: 80
