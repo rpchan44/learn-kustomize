@@ -13,7 +13,7 @@ labels:
 commonAnnotations:
   app: backoffice-app-annotations
 
-namePrefix: MachX-
+namePrefix: machx-
 
 nameSuffix: -v1
 
