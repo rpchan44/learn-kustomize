@@ -5,6 +5,7 @@ namespace: production
 
 configMapGenerator:
 - name: configmap
+  namespace: production
   behavior: replace
   envs:
   - config.properties
