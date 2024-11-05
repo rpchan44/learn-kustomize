@@ -4,7 +4,7 @@ kind: Kustomization
 namespace: production
 
 configMapGenerator:
-  - name: configmap  # Name of the generated ConfigMap
+  - name: configmap  
     envs:
       - config.properties 
 
