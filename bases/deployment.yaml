@@ -4,7 +4,7 @@ metadata:
   name: backoffice
   namespace: trunk
 spec:
-  replicas: 3
+  replicas: 5
   template:
     spec: # Pod spec
       containers:
