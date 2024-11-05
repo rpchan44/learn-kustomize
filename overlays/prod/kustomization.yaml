@@ -3,6 +3,7 @@ kind: Kustomization
 
 configMapGenerator:
   - name: configmap
+    namespace: default
     behavior: replace
     envs:
       - config.properties 
