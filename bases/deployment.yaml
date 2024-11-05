@@ -1,8 +1,8 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: mywebapp
-  namespace: default
+  name: backoffice
+  namespace: trunk
 spec:
   replicas: 1
   template:
