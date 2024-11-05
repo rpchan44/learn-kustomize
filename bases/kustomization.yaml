@@ -20,4 +20,4 @@ nameSuffix: -v1
 configMapGenerator:
 - envs:
   - config.properties
-  name: configmap
+  name: mycustom-map
