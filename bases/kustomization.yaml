@@ -21,3 +21,4 @@ configMapGenerator:
 - envs:
   - config.properties
   name: configmap
+  namespace: trunk
