@@ -4,6 +4,8 @@ kind: Kustomization
 configMapGenerator:
   - name: configmap
     namespace: application
+    literals:
+      - version=v1.0.0-dev
     behavior: replace
     envs:
       - config.properties 
