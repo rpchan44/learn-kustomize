@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/rpchan44/learn-kustomize.git
     targetRevision: HEAD
-    path: bases
+    path: overlays/dev
   destination:
     server: https://kubernetes.default.svc
     namespace: application
