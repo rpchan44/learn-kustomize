@@ -5,7 +5,6 @@ namespace: development
 
 configMapGenerator:
 - name: configmap
-  namespace: development
   behavior: replace
   envs:
   - config.properties
