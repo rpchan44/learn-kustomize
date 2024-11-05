@@ -14,7 +14,7 @@ spec:
         - containerPort: 80
         envFrom:
         - configMapRef:
-            name: mykustom-map
+            name: configmap
         resources:
           requests:
             memory: "16Mi" 
