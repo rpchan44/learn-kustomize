@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: backoffice
+  name: backoffice-trunk
   namespace: trunk
 spec:
   replicas: 5
