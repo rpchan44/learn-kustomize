@@ -8,12 +8,12 @@ resources:
 labels:
 - includeSelectors: true
   pairs:
-    app: basic-app
+    app: backoffice-app
 
 commonAnnotations:
-  app: basic-app-annotations
+  app: backoffice-app-annotations
 
-namePrefix: devel-
+namePrefix: MachX-
 
 nameSuffix: -v1
 
