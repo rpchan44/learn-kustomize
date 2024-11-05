@@ -4,4 +4,4 @@ metadata:
   name: backoffice
 
 spec:
-  replicas: 3
+  replicas: 1
