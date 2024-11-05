@@ -5,7 +5,7 @@ configMapGenerator:
   - name: configmap
     namespace: application
     literals:
-      - version=v1.0.0-dev
+      - version=v1.0.0-prod
     behavior: replace
     envs:
       - config.properties 
