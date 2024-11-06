@@ -5,7 +5,7 @@ configMapGenerator:
   - name: configmap
     namespace: application
     literals:
-      - version=rpchan44/nodejs-app:main
+      - version=1.0.0
     behavior: replace
     envs:
       - config.properties 
