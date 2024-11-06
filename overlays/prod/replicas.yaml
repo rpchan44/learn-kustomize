@@ -10,4 +10,4 @@ spec:
     spec:
       containers:
         - name: webapp-production
-          image: "rpchan44/webapp:v1.0-prod"
+          image: "rpchan44/webapp:v1.0"
