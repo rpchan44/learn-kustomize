@@ -15,5 +15,9 @@ namePrefix: dev-
 resources:
 - ../../bases
 
+images:
+  - name: myapp
+    newTag: dev-commit-hash
+    
 patches:
 - path: replicas.yaml
