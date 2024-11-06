@@ -16,4 +16,4 @@ resources:
 - ../../bases
 
 patches:
-- path: replicas.yaml
+- path: apps.yaml
