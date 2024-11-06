@@ -17,7 +17,6 @@ resources:
 
 images:
   - name: "rpchan44/webapp:v1.0"
-    newTag: dev-commit-hash
-    
+  
 patches:
 - path: replicas.yaml
