@@ -16,7 +16,7 @@ resources:
 - ../../bases
 
 images:
-  - name: "rpchan44/webapp:v1.0"
+  - name: "rpchan44/webapp:v1.0-dev"
   
 patches:
 - path: replicas.yaml
