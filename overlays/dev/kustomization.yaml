@@ -15,9 +15,5 @@ namePrefix: dev-
 resources:
 - ../../bases
 
-containers:
-      - name: webapp-dev
-        image: "rpchan44/webapp:v1.0"
-
 patches:
 - path: replicas.yaml
