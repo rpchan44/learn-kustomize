@@ -6,3 +6,8 @@ metadata:
   
 spec:
   replicas: 2
+  template:
+    spec:
+      containers:
+        - name: webapp-development
+          image: "rpchan44/webapp:v1.0-dev"
