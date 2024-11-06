@@ -15,6 +15,7 @@ namePrefix: dev-
 resources:
 - ../../bases
 
+images:
  - name: webapp-dev
         image: "rpchan44/webapp:v1.0"
 
