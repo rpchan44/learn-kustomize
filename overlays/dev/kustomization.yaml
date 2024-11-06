@@ -16,7 +16,7 @@ resources:
 - ../../bases
 
 images:
-  - name: myapp
+  - name: "rpchan44/webapp:v1.0"
     newTag: dev-commit-hash
     
 patches:
