@@ -11,4 +11,4 @@ spec:
     spec:
       containers:
         - name: webapp
-          image: "rpchan44/webapp:v1.0-dev"
+          image: "rpchan44/webapp:v1.0-dev:latest"
