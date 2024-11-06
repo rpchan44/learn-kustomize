@@ -5,7 +5,7 @@ configMapGenerator:
   - name: configmap
     namespace: application
     literals:
-      - version=rpchan44/webapp:v1.0-dev:main-bc3696ca1f8267860d0893fb3e3f347801a34aa4
+      - version=rpchan44/webapp:v1.0-dev:main-0be8ad795a9cb0acc78d26502fec8c5a682215b1
     behavior: replace
     envs:
       - config.properties 
