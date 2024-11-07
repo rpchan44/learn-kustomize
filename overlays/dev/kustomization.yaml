@@ -3,7 +3,7 @@ kind: Kustomization
 
 configMapGenerator:
   - name: configmap
-    namespace: application
+    namespace: development
     literals:
       - version=rpchan44/webapp:v1.0-dev:main-4edfa68ec5cc6a0ba1a942d40313ae88d84019e3
       - appName=webapp-dev
