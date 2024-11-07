@@ -10,5 +10,5 @@ spec:
   template:
     spec:
       containers:
-        - name: webapp-prod
+        - name: webapp
           image: "rpchan44/webapp:v1.0-prod"
