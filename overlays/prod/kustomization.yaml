@@ -6,6 +6,7 @@ configMapGenerator:
     namespace: application
     literals:
       - version=v1.0.0-prod
+      - appName=webapp-prod
     behavior: replace
     envs:
       - config.properties 
