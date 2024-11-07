@@ -2,7 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 configMapGenerator:
-  - name: configmap-dev
+  - name: configmap
     namespace: application
     literals:
       - version=rpchan44/webapp:v1.0-dev:main-4edfa68ec5cc6a0ba1a942d40313ae88d84019e3
