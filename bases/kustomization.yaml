@@ -23,5 +23,5 @@ configMapGenerator:
 - envs:
   - config.properties
   name: configmap
-  namespace: default
+  namespace: application
   
