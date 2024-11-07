@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: backoffice
-  namespace: application
+  namespace: development
   
 spec:
   replicas: 3
